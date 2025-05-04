@@ -1,0 +1,148 @@
+name: job_supabase
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.8.4
+  shared_preferences: ^2.5.3
+  flutter_svg: ^1.1.6
+  shimmer: ^3.0.0
+  app_links: ^6.3.3
+  file_picker: ^10.1.2
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  http: ^1.3.0
+  flutter_dotenv: ^5.2.1
+  image_picker: ^1.1.2
+  path_provider: ^2.1.5
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.4.1
+  json_annotation: ^4.9.0
+  provider: ^6.1.4
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  image_network: ^2.6.0
+  lucide_icons: ^0.257.0
+  flutter_slidable: ^4.0.0
+  badges: ^3.1.2
+  pdf: ^3.11.3
+  open_file: ^3.5.10
+  flutter_pdfview: ^1.4.0+1
+  syncfusion_flutter_pdf: ^29.1.38
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.14
+  flutter_gen_runner: ^5.8.0
+  flutter_launcher_icons: ^0.13.1
+  json_serializable: ^6.9.4
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/default_avatar.jpg"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+  
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/flags/
+    - .env
+l10n:
+  arb-dir: lib/l10n
+  output-localization-file: app_localizations.dart
+  output-class: AppLocalizations
+  preferred-supported-locales:
+    - en
+    - vi
+  # To add assets to your application, add an assets section, like this:
+  
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
+
+flutter_gen:
+  output: lib/gen/ # Đường dẫn thư mục bạn muốn tạo file gen
+
+
+# flutter_intl:
+#   enabled: true
+#   class_name: AppLocalizations # Tên class bạn muốn tạo (thường là AppLocalizations)
+#   generate_empty_value: false # Có tạo giá trị trống nếu không tìm thấy bản dịch không (thường là false)
+#   main_locale: en # Ngôn ngữ mặc định của bạn (thay 'en' nếu cần)
+#   output_dir: lib/l10n # Nơi bạn muốn file app_localizations.dart được tạo (thường là lib/l10n)
+#   arb_dir: lib/l10n # Nơi bạn lưu trữ các file .arb (thường là lib/l10n)
+#   use_deferred_loading: true # Tùy chọn tải deferred cho bản địa hóa (thường là true)
+#   preferred_supported_locales: # Tùy chọn sắp xếp supportedLocales
+#     - en
+#     - vi
+# flutter_native_splash:
+#     color: "##4CAF50  " # Set background color
+
+#     image: C:\trang-flutter\job_supabase\assets\images\logo_1.jpg # Replace with your actual splash logo path
+#     android_12:
+#       image: C:\trang-flutter\job_supabase\assets\images\logo_1.jpg
+#       color: "##4CAF50"  
