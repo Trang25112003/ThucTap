@@ -58,7 +58,7 @@ lib/
 ├── main.dart # Điểm khởi chạy ứng dụng
  
 ---
-## 🔧 Cài đặt và chạy ứng dụng
+##  Cài đặt và chạy ứng dụng
 
 ### Bước 1: Cài đặt Flutter SDK
 
@@ -90,8 +90,8 @@ Nếu bạn chưa cài đặt Flutter:
 
 ```bash
 # 1. Clone dự án từ GitHub
-git clone https://github.com/yourusername/it-job-finder.git
-cd it-job-finder
+git clone https://github.com/Trang25112003/ThucTap
+cd ThucTapThucTap
 
 # 2. Cài đặt các gói phụ thuộc
 flutter pub get
@@ -142,11 +142,11 @@ final supabase = SupabaseClient(supabaseUrl, supabaseKey);
 
 ---
 
-## 📄 Liên hệ
+## Liên hệ
 
-- 📧 Email: yourname@example.com
-- 👨‍💻 Sinh viên: [Họ và tên] - Đại học Sư phạm, Đại học Đà Nẵng
-- 📚 Đề tài nghiên cứu: "Nghiên cứu lập trình di động đa nền tảng và xây dựng ứng dụng tìm kiếm việc làm công nghệ thông tin trên nền tảng Android"
+-  Email: lttrang25@gmail.com
+-  Sinh viên: Lê Thị Trang - Đại học Sư phạm, Đại học Đà Nẵng
+-  Đề tài nghiên cứu: Nghiên cứu lập trình di động trên nền tảng Android để xây dựng ứng dụng tìm kiếm việc làm công nghệ thông tin bằng framework Flutter và ngôn ngữ lập trình Dart
 
 
 >>>>>>> 41e589d (initial comit)
